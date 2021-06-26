@@ -8,9 +8,11 @@ from language_change_methods.utility_functions import get_ll_and_lr
 import pandas as pd
 from typing import Iterable
 from sklearn.feature_extraction import DictVectorizer
+from pkg_resources import resource_filename
 
 
-with open("word_lists/function_words.txt") as func_file:
+filepath = resource_filename('language_change_methods', 'word_lists/function_words.txt')
+with open(filepath, encoding="utf-8") as func_file:
     function_words = [line.strip().lower() for line in func_file.readlines()]
 
 
