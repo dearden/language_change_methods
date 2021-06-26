@@ -13,7 +13,7 @@ from scipy.cluster.hierarchy import cophenet
 from scipy.spatial.distance import pdist
 from itertools import combinations
 from colour import Color
-from utility_functions import get_log_ratio
+from language_change_methods.utility_functions import get_log_ratio
 
 
 # This method calculates cosine distance between two vectors.

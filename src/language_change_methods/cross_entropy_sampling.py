@@ -5,8 +5,8 @@ import sys
 from datetime import datetime
 import numpy as np
 
-from utility_functions import get_time_windows, get_data_windows, add_key_dates
-from cross_entropy_models import BigramModel, SnapshotModels, SnapshotModelsPreset
+from language_change_methods.utility_functions import get_time_windows, get_data_windows, add_key_dates
+from language_change_methods.cross_entropy_models import BigramModel, SnapshotModels, SnapshotModelsPreset
 
 
 def calculate_CE_per_group(samples, test_contribs, group_names, all_groups_toks, n_words_per_contrib):

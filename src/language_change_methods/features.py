@@ -4,13 +4,13 @@ from collections import Counter
 from textstat import flesch_reading_ease
 import regex as re
 from nltk import ngrams as make_ngrams
-from utility_functions import get_ll_and_lr
+from language_change_methods.utility_functions import get_ll_and_lr
 import pandas as pd
 from typing import Iterable
 from sklearn.feature_extraction import DictVectorizer
 
 
-with open("C:/Users/Eddie/Documents/language_change_methods/word_lists/function_words.txt") as func_file:
+with open("word_lists/function_words.txt") as func_file:
     function_words = [line.strip().lower() for line in func_file.readlines()]
 
 

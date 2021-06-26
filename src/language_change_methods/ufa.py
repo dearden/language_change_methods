@@ -8,8 +8,8 @@ from datetime import datetime
 from collections import Counter
 from typing import Iterable, Callable
 
-from features import function_words
-from utility_functions import merge_lists, get_data_windows
+from language_change_methods.features import function_words
+from language_change_methods.utility_functions import merge_lists, get_data_windows
 
 
 def calc_ac1(t1, t2):

@@ -15,7 +15,7 @@ from itertools import combinations
 from pandas.plotting import register_matplotlib_converters
 register_matplotlib_converters()
 
-from utility_functions import add_key_dates
+from language_change_methods.utility_functions import add_key_dates
 
 
 cosine_sim = lambda x,y: 1 - cosine_dist(x,y)

@@ -2,8 +2,8 @@ import json
 import pandas as pd
 from datetime import datetime
 
-from utility_functions import get_time_windows, get_data_windows
-from cross_entropy_sampling import multi_member_splits_with_limit, multi_member_splits, get_end_of_windows
+from language_change_methods.utility_functions import get_time_windows, get_data_windows
+from language_change_methods.cross_entropy_sampling import multi_member_splits_with_limit, multi_member_splits, get_end_of_windows
 
 
 def get_CE_comparisons(fp):

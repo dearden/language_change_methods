@@ -8,7 +8,7 @@ import regex as re
 
 from gensim.models import Word2Vec
 
-from features import function_words
+from language_change_methods.features import function_words
 
 
 def get_top_vocab_and_vectors(model, n=10000):
