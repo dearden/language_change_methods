@@ -1,2 +1,3 @@
 # language_change_methods
-A library of language change methods in python.
+
+A repository of methods for plotting/analysing language change.

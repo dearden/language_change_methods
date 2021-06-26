@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: language-change-methods
+Version: 0.0.1
+Summary: A package containing methods for looking at language change.
+Home-page: https://github.com/dearden/language_change_methods
+Author: Edward Deardeb
+Author-email: edward.j.dearden@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dearden/language_change_methods/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# language_change_methods
+
+A repository of methods for plotting/analysing language change.
+
