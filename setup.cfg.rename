@@ -1,7 +1,7 @@
 [metadata]
 name = language_change_methods
 version = 0.0.1
-author = Edward Deardeb
+author = Edward Dearden
 author_email = edward.j.dearden@gmail.com
 description = A package containing methods for looking at language change.
 long_description = file: README.md
